@@ -12,5 +12,3 @@ class Dobradura:
 
 a = Dobradura()
 print(a.get_dobrar(13))
-
-
