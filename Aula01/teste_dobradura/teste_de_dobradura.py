@@ -992,18 +992,18 @@ lista = [8192 ,
 
 
 
-print('#'*40,'\nIniciando teste númerico!')
+print('#'*40,'\nIniciando Teste_Formas númerico!')
 for i in range(len(lista)):
     assert a.get_dobrar(i+13) == lista[i] , f'ERRO!!! para {i+13} '\
      f'dobras deve ter {lista[i]} divisão!'
 print('\nTeste númerico: OK','\n'*3,)
 
-print('#'*40,'\nIniciando teste inserção de números negativos!')
+print('#'*40,'\nIniciando Teste_Formas inserção de números negativos!')
 for i in range(len(lista)):
     assert not a.get_dobrar((i+13)*-1) , f'ERRO!!! get_dobrar() Não deve aceitar números negativos!'
 print('\nTeste Inserção de números negativos: OK','\n'*3,)
 
-print('#'*40,'\nIniciando teste inserção de caracteres!')
+print('#'*40,'\nIniciando Teste_Formas inserção de caracteres!')
 lista = [str(x) for x in range(100000)]
 lista = lista + ['a'*x for x in range(10000)]
 for i in lista:
